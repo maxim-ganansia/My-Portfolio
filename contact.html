@@ -10,6 +10,9 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/caf9f82a7b.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -37,27 +40,26 @@
                 </ul>
             </div>
         </nav>
-        <form class="user-review">
-            <div class="card contact-card">
-                <img class="image-get-in-touch"src="photos/get-in-touch.png" alt="Get in Touch">
-                <span style="font-style: italic; text-align: center;"><br><br>All red entries are required<span>
-                        <form class="col" id="MyForm">
-                            <div class="row">
-                                <input type="text" class="form-control f-name input-user" id="fname"
-                                    placeholder="First name" required>
-                            </div>
-                            <div class="row">
-                                <input type="text" class="form-control l-name input-user" id="lname"
-                                    placeholder="Last name">
-                            </div>
-                            <div class="row">
-                                <input type="email" class="form-control mail input-user" id="email" placeholder="email"
-                                    required>
-                            </div>
-                            <div class="row">
-                                <input type="text" style="height: 100px;" class="form-control comment input-user"
-                                    id="comment" placeholder="Comment" required>
-                            </div>
+        <div class="card contact-card user-review">
+            <img class="image-get-in-touch" src="photos/get-in-touch.png" alt="Get in Touch">
+            <span style="font-style: italic; text-align: center;"><br><br>All red entries are required<span>
+                    <form class="col" id="MyForm">
+                        <div class="row">
+                            <input type="text" class="form-control f-name input-user" id="fname"
+                                placeholder="First name" required>
+                        </div>
+                        <div class="row">
+                            <input type="text" class="form-control l-name input-user" id="lname"
+                                placeholder="Last name">
+                        </div>
+                        <div class="row">
+                            <input type="email" class="form-control mail input-user" id="email" placeholder="email"
+                                required>
+                        </div>
+                        <div class="row">
+                            <input type="text" style="height: 100px;" class="form-control comment input-user"
+                                id="comment" placeholder="Comment" required>
+                        </div>
                             <label for="exampleFormControlSelect1" class="input-user">How do you find my portfolio
                                 ?</label>
                             <div class="form-check">
@@ -95,11 +97,10 @@
                                     5 : So Cool !!
                                 </label>
                             </div>
-                            <button disabled id="submit-btn" type="submit" class="btn btn-outline-success">Submit <i
-                                    class="far fa-paper-plane"></i></button>
-                        </form>
-            </div>
-        </form>
+                        <button disabled id="submit-btn" type="submit" class="btn btn-outline-success">Submit <i
+                                class="far fa-paper-plane"></i></button>
+                    </form>
+        </div>
     </div>
     <div class="footer">
         <div class="footer-element">

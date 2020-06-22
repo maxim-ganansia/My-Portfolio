@@ -310,6 +310,10 @@ select:invalid {
     font-size: 15px;
   }
 
+  .footer-myWorks{
+    margin-top: 13%;
+  }
+
   /* CONTACT SECTION */
 
   .contact-card{
@@ -324,11 +328,8 @@ select:invalid {
     width: 100%;
   }
 
-  /* .navbar-light .navbar-brand{
-    margin-left: -8%;
+  .form-check-label{
+    margin-left: 10%;
+    font-weight: normal;
   }
-
-  .navbar-light .navbar-toggler {
-    margin-left: 40%;
-  } */
 }
