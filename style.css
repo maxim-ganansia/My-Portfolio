@@ -263,13 +263,14 @@ select:invalid {
 }
 
 
+
 @media only screen and (max-device-width: 375px) {
 
   /*INDEX SECTION*/
  
   
   /*ABOUT SECTION*/
-  .card-about {
+  .card-about, #card-index {
     width: 100%;
     padding: 0;
     align-items: center;
