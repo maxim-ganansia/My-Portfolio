@@ -221,6 +221,7 @@ select:invalid {
   animation-iteration-count: infinite;
 }
 
+
 @keyframes rotate-skull {
   0% {
     transform: rotate(0deg)
@@ -262,6 +263,13 @@ select:invalid {
   text-align: center;
 }
 
+.My-works-page-wrapper{
+  height: 110vh;
+}
+
+.my-works-section{
+  background-color: rgb(4, 63, 90);
+}
 
 
 @media only screen and (max-device-width: 375px) {
