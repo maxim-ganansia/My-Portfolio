@@ -242,10 +242,6 @@ select:invalid {
   }
 }
 
-.carouselPictures{
-  height: 450px !important;
-  width: 400px;
-}
 
 .form-check-label{
   margin-left: 10%;
@@ -363,3 +359,16 @@ select:invalid {
   margin: 125px;
   padding: 50px;
 }
+
+.carousel{
+  width: 50%;
+}
+
+.carousel-inner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
