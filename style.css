@@ -264,7 +264,7 @@ select:invalid {
 }
 
 .My-works-page-wrapper{
-  height: 110vh;
+  height: 110%;
 }
 
 .my-works-section{
@@ -305,6 +305,7 @@ select:invalid {
   /*MY WORKS SECTION */
   .my-work-card{
     text-align: center;
+    height: 100%;
   }
 
   .my-work-title{
