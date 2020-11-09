@@ -324,6 +324,10 @@ select:invalid {
   align-items: center;
 }
 
+.credit{
+  background-color: rgb(243, 242, 242);
+}
+
 
 
 @media only screen and (max-device-width: 450px) {
