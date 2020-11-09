@@ -272,107 +272,6 @@ select:invalid {
 }
 
 
-@media only screen and (max-device-width: 450px) {
-
-  /*INDEX SECTION*/
- 
-  
-  /*ABOUT SECTION*/
-  .card-about, #card-index {
-    width: 100%;
-    padding: 0;
-    align-items: center;
-  }
-
-  .map-iframe{
-    width: 100%;
-  }
-
-  .about-title{
-    font-size: 20px;
-  }
-
-  .about-paragraphe{
-    font-size: 15px;
-  }
-
-  .about-list{
-    text-align: center;
-    font-size : 15px;
-    margin-right: 12%;
-  }
-
-  /*MY WORKS SECTION */
-
-  .my-works-section{
-    width: 100%;
-  }
-
-  .works-title{
-    font-size: 20px;
-  }
-
-  .works-paragraph{
-    font-size: 15px;
-  }
-
-  .project-title{
-    font-size: 20px;
-  }
-
-  .my-project{
-    margin-top: 0;
-    width: 100%;
-    padding: 0;
-    align-items: center;
-  } 
-
-  /* .my-work-card{
-    text-align: center;
-    height: 100%;
-  } */
-
-  /* .my-project{
-    width: 100%;
-    padding: 0;
-    align-items: center;
-  } */
-
-  /* .my-work-title{
-    font-size: 23px;
-    padding: 0;
-    width: 150px;
-  } */
-
-  /* .my-work-text{
-    width: 150px;
-    font-size: 15px;
-  } */
-/* 
-  .footer-myWorks{
-    margin-top: 13%;
-  } */
-
-  /* CONTACT SECTION */
-
-  .contact-card{
-    width: 100vw;
-  }
-
-  .image-get-in-touch{
-    width: 100%;
-  }
-
-  .input-user{
-    width: 100%;
-  }
-
-  .form-check-label{
-    margin-left: 10%;
-    font-weight: normal;
-  }
-}
-
 /* My Works */
 
 .my-project{
@@ -423,5 +322,92 @@ select:invalid {
   justify-content: center;
   text-align: center;
   align-items: center;
+}
+
+
+
+@media only screen and (max-device-width: 450px) {
+
+  /*INDEX SECTION*/
+ 
+  
+  /*ABOUT SECTION*/
+  .card-about, #card-index {
+    width: 100%;
+    padding: 0;
+    align-items: center;
+  }
+
+  .map-iframe{
+    width: 100%;
+  }
+
+  .about-title{
+    font-size: 20px;
+  }
+
+  .about-paragraphe{
+    font-size: 15px;
+  }
+
+  .about-list{
+    text-align: center;
+    font-size : 15px;
+    margin-right: 12%;
+  }
+
+  /*MY WORKS SECTION */
+
+  .my-works-section{
+    width: 100%;
+  }
+
+  .works-title{
+    font-size: 20px;
+  }
+
+  .works-paragraph{
+    font-size: 15px;
+  }
+
+  .project-title{
+    font-size: 20px;
+  }
+
+  .my-project{
+    margin-top: 23%;
+    margin-bottom: 7%;
+    width: 100%;
+    padding: 0;
+    align-items: center;
+  } 
+
+  .card-works{
+    width: 90%;
+  }
+
+  .works-details{
+    font-size: 70%;
+    margin-left: -15%;
+  }
+
+  /* CONTACT SECTION */
+
+  .contact-card{
+    width: 100vw;
+  }
+
+  .image-get-in-touch{
+    width: 100%;
+  }
+
+  .input-user{
+    width: 100%;
+  }
+
+  .form-check-label{
+    margin-left: 10%;
+    font-weight: normal;
+  }
 }
 
