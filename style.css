@@ -303,25 +303,55 @@ select:invalid {
   }
 
   /*MY WORKS SECTION */
-  .my-work-card{
-    text-align: center;
-    height: 100%;
+
+  .my-works-section{
+    width: 100%;
   }
 
-  .my-work-title{
-    font-size: 23px;
-    padding: 0;
-    width: 150px;
+  .works-title{
+    font-size: 20px;
   }
 
-  .my-work-text{
-    width: 150px;
+  .works-paragraph{
     font-size: 15px;
   }
 
+  .project-title{
+    font-size: 20px;
+  }
+
+  .my-project{
+    margin-top: 0;
+    width: 100%;
+    padding: 0;
+    align-items: center;
+  } 
+
+  /* .my-work-card{
+    text-align: center;
+    height: 100%;
+  } */
+
+  /* .my-project{
+    width: 100%;
+    padding: 0;
+    align-items: center;
+  } */
+
+  /* .my-work-title{
+    font-size: 23px;
+    padding: 0;
+    width: 150px;
+  } */
+
+  /* .my-work-text{
+    width: 150px;
+    font-size: 15px;
+  } */
+/* 
   .footer-myWorks{
     margin-top: 13%;
-  }
+  } */
 
   /* CONTACT SECTION */
 
@@ -370,9 +400,17 @@ select:invalid {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* margin: 125px; */
   margin-bottom: 3%;
   padding: 50px;
+  width: 75%;
+}
+
+.works-paragraph{
+  font-style: italic;
+}
+
+.project-picture{
+  width: 270px;
 }
 
 .carousel{
