@@ -330,6 +330,14 @@ select:invalid {
 
 
 
+.input-form{
+  margin-top: 10%;
+  text-align: center;
+  width: 370px;
+}
+
+
+
 @media only screen and (max-device-width: 450px) {
 
   /*INDEX SECTION*/
