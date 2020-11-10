@@ -45,55 +45,65 @@
             <span style="font-style: italic; text-align: center;"><br><br>All red entries are required<span>
                     <form action="mailto:m.gnansia@gmail.com" method="post" enctype="text/plain">
                         <div class="row">
-                            <input class="input-form" type="text" name="FirstName" placeholder="first name" required>
+                            <input class="input-form" type="text" style="height: 40px;" name="first-name"
+                                placeholder="first name" required>
                         </div>
                         <div class="row">
-                            <input class="input-form" type="text" name="LastName" id="fname" placeholder="Last name">
+                            <input class="input-form" style="height: 40px;" type="text" name="LastName" id="last-name"
+                                placeholder="Last name">
                         </div>
                         <div class="row">
-                            <input class="input-form" type="email" name="email"  placeholder="email" required>
+                            <input class="input-form" style="height: 40px;" type="email" name="email"
+                                placeholder="Email" required>
                         </div>
                         <div class="row">
-                            <input class="input-form" style="height: 100px;" type="text" name="Comments" placeholder="Comments">
+                            <input class="input-form" style="height: 40px;" type="text" name="PhoneNumber"
+                                id="phone-number" placeholder="Phone Number">
                         </div>
-                        <label for="exampleFormControlSelect1" class="input-user">How do you find my portfolio
+                        <div class="row">
+                            <input class="input-form" style="height: 100px;" type="text" name="Comments"
+                                placeholder="Comments">
+                        </div>
+                        <label class="input-user">How do you find my portfolio
                             ?</label>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="Radios" id="exampleRadios1"
-                                value="not great at all">
-                            <label class="form-check-label" for="exampleRadios1">
-                                1 : not great at all
-                            </label>
+                        <div class="div-radio">
+                            <div>
+                                <input class="form-check-input" type="radio" name="Radios" id="exampleRadios1"
+                                    value="not great at all">
+                                <label class="form-check-label" for="exampleRadios1">
+                                    not great at all
+                                </label>
+                            </div>
+                            <div>
+                                <input class="form-check-input" type="radio" name="Radios" id="exampleRadios2"
+                                    value="can do better">
+                                <label class="form-check-label" for="exampleRadios2">
+                                    can do better
+                                </label>
+                            </div>
+                            <div>
+                                <input class="form-check-input" type="radio" name="Radios" id="exampleRadios3"
+                                    value="can be OK">
+                                <label class="form-check-label" for="exampleRadios3">
+                                    can be OK
+                                </label>
+                            </div>
+                            <div>
+                                <input class="form-check-input" type="radio" name="Radios" id="exampleRadios2"
+                                    value="not bad !">
+                                <label class="form-check-label" for="exampleRadios2">
+                                    not bad !
+                                </label>
+                            </div>
+                            <div>
+                                <input class="form-check-input" type="radio" name="Radios" id="exampleRadios3"
+                                    value="So Cool !!" checked>
+                                <label class="form-check-label" for="exampleRadios3">
+                                    So Cool !!
+                                </label>
+                            </div>
                         </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="Radios" id="exampleRadios2"
-                                value="can do better">
-                            <label class="form-check-label" for="exampleRadios2">
-                                2 : can do better
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="Radios" id="exampleRadios3"
-                                value="can be OK">
-                            <label class="form-check-label" for="exampleRadios3">
-                                3 : can be OK
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="Radios" id="exampleRadios2"
-                                value="not bad !">
-                            <label class="form-check-label" for="exampleRadios2">
-                                4 : not bad !
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="Radios" id="exampleRadios3"
-                                value="So Cool !!" checked>
-                            <label class="form-check-label" for="exampleRadios3">
-                                5 : So Cool !!
-                            </label>
-                        </div>
-                        <input style="margin-top: 5%;"type="submit" value="Send it">
+                        <input style="margin-top: 5%;" type="submit" value="Send it">
                     </form>
         </div>
     </div>

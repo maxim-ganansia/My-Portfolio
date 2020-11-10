@@ -107,8 +107,8 @@ body {
 .about-title {
   text-align: center;
   font-family: 'Noto Sans JP', sans-serif;
-  color: #3d6ded;
-  text-decoration: underline;
+  color: rgb(4, 63, 90);
+  text-decoration: solid;
   margin-top: 3%;
 }
 
@@ -306,11 +306,20 @@ select:invalid {
 
 .works-paragraph{
   font-style: italic;
+  font-size: 10px;
+  color: rgb(4, 63, 90);
+  margin-bottom: 3%;
+  margin-top: -1%;
 }
 
 .project-picture{
   width: 270px;
 }
+
+.works-title, .project-title, .works-details{
+  color: rgb(4, 63, 90);
+}
+
 
 .carousel{
   width: 50%;
@@ -333,7 +342,13 @@ select:invalid {
 .input-form{
   margin-top: 10%;
   text-align: center;
+  border-radius: 10px;
   width: 370px;
+}
+
+.div-radio{
+  text-align: left;
+  margin-left:35%;
 }
 
 
