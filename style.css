@@ -383,6 +383,10 @@ select:invalid {
     margin-right: 12%;
   }
 
+  .carousel{
+    width: 358px;
+  }
+
   /*MY WORKS SECTION */
 
   .my-works-section{
